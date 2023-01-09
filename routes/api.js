@@ -23,8 +23,9 @@ router.post('/notes', (req, res) => {
         text: req.body.text, 
         id: IDnum
     };
-    db.push(newInput);
+    data.push(newInput);
     fs.writeFileSync("./db/db.json", JSON.stringify(data));
 });
 
 module.exports = router;
+
