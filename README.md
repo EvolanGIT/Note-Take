@@ -26,7 +26,7 @@
 
 ## Access
 
-## Link to the deployed Heroku app
+## App deployed to Heroku [**HERE**](https://polar-wildwood-06374.herokuapp.com/)
 
 ## Visuals
 
