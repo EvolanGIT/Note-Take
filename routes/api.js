@@ -12,7 +12,6 @@ router.get('/notes', (req, res) => {
 
 // post
 router.post('/notes', (req, res) => {
-
     let IDnum = uniqueID();
     const data = JSON.parse(fs.readFileSync("./db/db.json"));
     res.json(data)
